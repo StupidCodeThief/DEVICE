@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Device</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="/index.html"><h1 class="logo">DEVICE</h1></a>
+      <div class="header__user">
+        <ul class="user__list">
+          <li>
+            <img src="img/svg/search.svg" alt="search" />
+            <p>Поиск</p>
+          </li>
+          <li>
+            <img src="img/svg/user.svg" alt="user" />
+            <p>Войти</p>
+          </li>
+          <li>
+            <img src="img/svg/compare.svg" alt="compare" />
+            <p>Сравнить</p>
+          </li>
+          <li>
+            <img src="img/svg/cart.svg" alt="car" />
+            <p>Корзина</p>
+          </li>
+        </ul>
+      </div>
+      <nav class="header__nav">
+        <ul class="nav__list">
+          <li>
+            Каталог товаров
+            <img src="img/png/plus.png" alt="plus" class="plus" />
+          </li>
+          <li>Доставка</li>
+          <li>Гарантия</li>
+          <li>Контакты</li>
+        </ul>
+      </nav>
+      <div class="header__01">
+        <p class="numbers">01</p>
+      </div>
+      <section class="footer__catalog">
+        <h2 class="hidden">Каталог</h2>
+        <ul class="catalog__list">
+          <li>Виртуальная реальность</li>
+          <li>Моноподы</li>
+          <li>Экшн камеры</li>
+          <li>Фитнес браслеты</li>
+          <li>Умные часы</li>
+          <li>Квадрокоптеры</li>
+        </ul>
+      </section>
+    </header>
+    <main class="main">
+      <h1>Моноподы для селфи</h1>
+      <p>
+        <a href="/index.html">Главная</a> &gt; Каталог товаров &gt; Моноподы для
+        селфи
+      </p>
+      <section class="main__filter">
+        <h2 class="filter__h2">Фильтр</h2>
+        <form class="main__form" action="http://192.168.1.1.80" method="GET">
+          <p>
+            <label for="price">
+              Стоимость
+            </label>
+            <input
+              type="range"
+              id="price"
+              name="price"
+              min="0"
+              max="10000"
+              step="100"
+            />
+          </p>
+          <p>
+            Цвет
+            <label for="black">
+              <input type="checkbox" id="black" name="black" checked />
+              Черный
+            </label>
+            <label for="white">
+              <input type="checkbox" id="white" name="white" />
+              Белый
+            </label>
+            <label for="blue">
+              <input type="checkbox" id="blue" name="blue" checked />
+              Синий
+            </label>
+            <label for="red">
+              <input type="checkbox" id="red" name="red" checked />
+              Красный
+            </label>
+            <label for="pink">
+              <input type="checkbox" id="pink" name="pink" />
+              Розовый
+            </label>
+          </p>
+          <p>
+            Bluetooth
+            <label>
+              <input type="radio" value="yes" name="bluetooth" checked />
+              Есть
+            </label>
+            <label>
+              <input type="radio" value="no" name="bluetooth" />
+              Нет
+            </label>
+          </p>
+          <button type="submit">Показать</button>
+        </form>
+      </section>
+      <section class="main__products">
+        <h2 class="hidden">Товары</h2>
+        <div class="main__products__head">
+          <p class="main__products__head__p">Сортировка:</p>
+          <ul class="main__products__head__list">
+            <li>По цене</li>
+            <li>По типу</li>
+            <li>По популярности</li>
+          </ul>
+        </div>
+        <div class="main__products__">
+          <ul class="main__products__list">
+            <li>
+              <img src="img/jpg/item-1.jpg" alt="standart selfy stick" />
+              <p class="main__products__list__p">Любительская селфи палка <span class="main__products__list__span">500 руб.</span></p>
+            </li>
+            <li>
+              <img src="img/jpg/item-2.jpg" alt="professional selfy stick" />
+              <p class="main__products__list__p">Профессиональная селфи палка <span class="main__products__list__span">1500 руб.</span></p>
+            </li>
+            <li>
+              <img src="img/jpg/item-3.jpg" alt="unsinkable selfy stick" />
+              <p class="main__products__list__p">Непотопляемая селфи палка <span class="main__products__list__span">2500 руб.</span></p>
+            </li>
+            <li>
+              <img src="img/jpg/item-4.jpg" alt="selfy stick follow me" />
+              <p class="main__products__list__p">Селфи палка "Следуй за мной" <span class="main__products__list__span">4900 руб.</span></p>
+            </li>
+          </ul>
+          <div class="main__products__nav">
+            <p class="main__products__nav__p">Назад</p>
+            <ul class="main__products__nav__list">
+              <li>1</li>
+              <li>2</li>
+              <li>3</li>
+            </ul>
+            <p class="main__products__nav__p">Вперед</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__left">
+        <p class="footer__logo">DEVICE</p>
+        <p class="footer__adress">г. Москва ул. Строителей 15</p>
+        
+      </div>
+      <div class="footer__middle">
+        <ul class="footer__links">
+          <li>ДОСТАВКА</li>
+          <li>ГАРАНТИЯ</li>
+          <li>КОНТАКТЫ</li>
+        </ul>
+        <ul class="footer__social">
+          <li>
+            <img
+              src="img/svg/facebook"
+              alt="facedook"
+              aria-label="facedook"
+              class="footer__social__facebook"
+            />
+          </li>
+          <li>
+            <img
+              src="img/svg/instagramm"
+              alt="instagramm"
+              aria-label="instagramm"
+              class="footer__social__instagramm"
+            />
+          </li>
+          <li>
+            <img
+              src="img/svg/twitter.svg"
+              alt="twitter"
+              aria-label="twitter"
+              class="footer__social__twitter"
+            />
+          </li>
+        </ul>
+      </div>
+      <div class="footer__right">
+        <ul class="footer__user">
+          <li>
+            <a href="/login.js">Войти</a>
+          </li>
+          <li>
+            <a href="/compare.js">Сравнить</a>
+          </li>
+          <li>
+            <a href="/cart.js">Корзина</a>
+          </li>
+        </ul>
+        <p class="footer__phone">Тел.: +7 (495) 495-95-95</p>
+        <img
+          src="img/svg/logo-html.svg"
+          alt="logo-html"
+          class="footer__Html"
+        />
+      </div>
+    </footer>
+  </body>
+</html>
