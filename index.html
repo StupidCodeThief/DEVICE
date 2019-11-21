@@ -8,51 +8,65 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <header class="header">
-      <a href="/index.html"><h1 class="logo">DEVICE</h1></a>
-      <div class="header__user">
+    <header class="page__header">
+      <h1 class="visually-hidden">
+        Каталог товаров интернет-магазина гаджетов "DEVICE"
+      </h1>
+      <h2 class="logo">DEVICE</h2>
+      <nav class="header__nav">
         <ul class="user__list">
           <li>
-            <img src="img/svg/search.svg" alt="search" />
-            <p>Поиск</p>
+            <form class="main-nav__search" method="get">
+              <input
+                class="main-nav__search-input"
+                id="search"
+                type="search"
+                name="search"
+                placeholder="Поиск по сайту"
+              />
+              <label
+                class="main-nav__search-label visually-hidden"
+                for="search"
+              >
+              </label>
+            </form>
           </li>
           <li>
             <img src="img/svg/user.svg" alt="user" />
-            <p>Войти</p>
+            <a href="#">Войти</a>
           </li>
           <li>
             <img src="img/svg/compare.svg" alt="compare" />
-            <p>Сравнить</p>
+            <a href="#">Сравнить</a>
           </li>
           <li>
             <img src="img/svg/cart.svg" alt="car" />
-            <p>Корзина</p>
+            <a href="#">Корзина</a>
           </li>
         </ul>
-      </div>
-      <nav class="header__nav">
+
         <ul class="nav__list">
           <li>
             Каталог товаров
             <img src="img/png/plus.png" alt="plus" class="plus" />
           </li>
-          <li>Доставка</li>
-          <li>Гарантия</li>
-          <li>Контакты</li>
+          <li><a href="#">Доставка</a></li>
+          <li><a href="#">Гарантия</a></li>
+          <li><a href="#">Контакты</a></li>
         </ul>
       </nav>
       <div class="header__01">
         <p class="numbers">01</p>
       </div>
-      <section class="footer__catalog">
-        <h2 class="hidden">Каталог</h2>
+      <section class="header__catalog">
+        <h2 class="visually__hidden">Каталог</h2>
         <ul class="catalog__list">
-          <li>Виртуальная реальность</li>
-          <li>Моноподы</li>
-          <li>Экшн камеры</li>
-          <li>Фитнес браслеты</li>
-          <li>Умные часы</li>
-          <li>Квадрокоптеры</li>
+          <li><a href="#">Виртуальная реальность</a></li>
+          <li><a href="#">Моноподы</a></li>
+          <li><a href="#">Экшн камеры</a></li>
+          <li><a href="#">Фитнес браслеты</a></li>
+          <li><a href="#">Умные часы</a></li>
+          <li><a href="#">Квадрокоптеры</a></li>
         </ul>
       </section>
     </header>
@@ -60,7 +74,7 @@
       <section class="main__content">
         <div class="main__content__image">
           <h2 class="hiden">Самая длинная палка для селфи</h2>
-          <a href=""><img src="img/png/slider-1.png" alt="selfy stick"/></a>
+          <img src="img/png/slider-1.png" alt="selfy stick"/>
         </div>
         <div class="main__content__description">
           <p>Делай селфи, как Бен Стиллер!</p>
@@ -69,15 +83,9 @@
             Восемь(Восемь, Карл!) метров длиной и весом всего 5 килограмм.
           </p>
           <p>подробнее</p>
-          <button
-            class="Button__Next__1"
-            aria-label="Следующий слайд"></button>
-          <button
-            class="Button__Next__2"
-            aria-label="Следующий слайд"></button>
-          <button
-            class="Button__Next__3"
-            aria-label="Следующий слайд"></button>
+          <button class="button__next__first" aria-label="Следующий слайд"></button>
+          <button class="button__next__second" aria-label="Следующий слайд"></button>
+          <button class="button__next__third" aria-label="Следующий слайд"></button>
           <table class="main__content__description__table">
             <tr>
               <td>8,5 м</td>
@@ -173,7 +181,7 @@
         </li>
       </ul>
       <section class="main__partners">
-        <h2 class="hiden">partners</h2>
+        <h2 class="visually-hidden">partners</h2>
         <img
           src="img/png/logo-1.png"
           alt="dji logo"
@@ -221,7 +229,11 @@
       </section>
       <section class="main__warranty">
         <h2 class="main__warranty__h2">Гарантия</h2>
-        <img src="img/png/Layer-1-copy-14.png" alt="gray background" class="main__warranty__grayBackground"/>
+        <img
+          src="img/png/Layer-1-copy-14.png"
+          alt="gray background"
+          class="main__warranty__grayBackground"
+        />
         <p class="main__warranty__p">Гарантия</p>
         <div class="main__warranty__description">
           <p class="main__warranty__description__p">Гарантия</p>
@@ -230,13 +242,27 @@
             переживайте, мы выдадим вам новый Товар, не дом, конечно же.
           </p>
         </div>
-        <div class="main__warranty__description__div"><img src="img/png/warranty.png" alt="warranty" class="main__warranty__description__div__warrantyImg" /></div>
+        <div class="main__warranty__description__div">
+          <img
+            src="img/png/warranty.png"
+            alt="warranty"
+            class="main__warranty__description__div__warrantyImg"
+          />
+        </div>
       </section>
       <section class="main__credit">
         <h2 class="main__credit__h2">Кредит</h2>
-        <img src="img/png/Layer-1-copy-14.png" alt="gray background"  class="main__credit__background"/>
-          <p class="main__credit__p">КРЕДИТ</p>
-        <img src="img/png/layer-6-copy-2.png" alt="black-slash"  class="main__credit__blackSlash"/>
+        <img
+          src="img/png/Layer-1-copy-14.png"
+          alt="gray background"
+          class="main__credit__background"
+        />
+        <p class="main__credit__p">КРЕДИТ</p>
+        <img
+          src="img/png/layer-6-copy-2.png"
+          alt="black-slash"
+          class="main__credit__blackSlash"
+        />
         <div class="main__credit__description">
           <p class="main__credit__description__p">кредит</p>
           <p class="main__credit__description__p">
@@ -245,7 +271,13 @@
             банка, разумеется.
           </p>
         </div>
-        <div class="main__credit__div"><img src="img/png/credit.png" alt="credit"  class="main__credit__div__image"/></div>
+        <div class="main__credit__div">
+          <img
+            src="img/png/credit.png"
+            alt="credit"
+            class="main__credit__div__image"
+          />
+        </div>
       </section>
       <div class="main__description">
         <section class="main__description__aboutUs">
@@ -271,7 +303,11 @@
             Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете
             проверить работоспособность покупки. Всякое бывает.
           </p>
-          <img src="img/jpg/map-big.jpg" alt="map"  class="main__description__contact__map"/>
+          <img
+            src="img/jpg/map-big.jpg"
+            alt="map"
+            class="main__description__contact__map"
+          />
           <p class="main__description__contact__writeUs">напишите нам</p>
         </section>
       </div>
@@ -280,13 +316,12 @@
       <div class="footer__left">
         <p class="footer__logo">DEVICE</p>
         <p class="footer__adress">г. Москва ул. Строителей 15</p>
-        
       </div>
       <div class="footer__middle">
         <ul class="footer__links">
-          <li>ДОСТАВКА</li>
-          <li>ГАРАНТИЯ</li>
-          <li>КОНТАКТЫ</li>
+          <li><a href="#" class="footer__links__delivery">ДОСТАВКА</a></li>
+          <li><a href="#" class="footer__links__warranty">ГАРАНТИЯ</a></li>
+          <li><a href="#" class="footer__links__contacts">КОНТАКТЫ</a></li>
         </ul>
         <ul class="footer__social">
           <li>
@@ -328,11 +363,7 @@
           </li>
         </ul>
         <p class="footer__phone">Тел.: +7 (495) 495-95-95</p>
-        <img
-          src="img/svg/logo-html.svg"
-          alt="logo-html"
-          class="footer__Html"
-        />
+        <img src="img/svg/logo-html.svg" alt="logo-html" class="footer__Html" />
       </div>
     </footer>
   </body>
