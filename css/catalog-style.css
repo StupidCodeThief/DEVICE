@@ -85,31 +85,43 @@ li .loguot {
   padding-left: 30px;
 }
 
-/* .background {
-    position: relative;
-    min-height: 1290px;
+.background {
+  position: relative;
+  min-height: 1290px;
 }
 
 .background-top {
-    width: 100%;
-    height: 70px;
-    background-color: #efefef;
+  display: flex;
+  width: 100%;
+  height: 70px;
+}
+
+.left-side {
+  width: 30%;
+  height: 70px;
+  background-color: #dcdcdc;
+}
+
+.right-side {
+  width: 70%;
+  height: 70px;
+  background-color: #efefef;
 }
 
 .background-left {
-    height: 1220px;
-    width: 25%;
-    background-color: #efefef;
-} */
+  height: 1220px;
+  width: 25%;
+  background-color: #efefef;
+}
 
 .wrapper {
   display: flex;
   flex-direction: row;
   align-self: center;
-  /* position: absolute;
-    top: 0px;
-    left: 50%;
-    margin-left: -720px; */
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  margin-left: -720px;
 }
 
 .main-filter {
@@ -334,7 +346,7 @@ input[type="range"]:focus::-ms-fill-upper {
 }
 
 .sort {
-  background-color: #ebebeb;
+  background-color: transparent;
 }
 
 .sort div {
