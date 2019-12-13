@@ -1,4 +1,4 @@
-const loginLink = document.querySelector(".login-link");
+const loginLink = document.querySelector(".write-us");
 const mapLink = document.querySelector(".map-link");
 
 const loginPopup = document.querySelector(".modal-login");
