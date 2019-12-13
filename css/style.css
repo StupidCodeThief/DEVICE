@@ -1,11 +1,11 @@
 @font-face {
-  font-family: 'Gilroy';
+  font-family: "Gilroy";
   src: url("../fonts/gilroy/Gilroyextrabold.ttf") format("opentype");
   font-weight: bold;
 }
 
 @font-face {
-  font-family: 'Gilroy';
+  font-family: "Gilroy";
   src: url("../fonts/gilroy/Gilroylight.ttf") format("opentype");
   font-weight: lighter;
 }
@@ -18,7 +18,7 @@
 
 body {
   background-color: #fff;
-  font-family: 'Open Sans', Helvetica, sans-serif;
+  font-family: "Open Sans", Helvetica, sans-serif;
 }
 
 a {
@@ -26,7 +26,8 @@ a {
   color: black;
 }
 
-:hover, :focus {
+:hover,
+:focus {
   outline: none;
 }
 
@@ -87,7 +88,7 @@ button:focus {
 }
 
 .logo {
-  font-family: 'Gilroy', Helvetica, sans-serif;
+  font-family: "Gilroy", Helvetica, sans-serif;
   position: absolute;
   font-weight: bold;
   font-size: 48px;
@@ -100,7 +101,8 @@ a:hover {
   color: rgba(0, 0, 0, 0.6);
 }
 
-a:active, a:focus {
+a:active,
+a:focus {
   color: rgba(0, 0, 0, 0.302);
 }
 
@@ -111,7 +113,7 @@ a:active, a:focus {
   margin-left: 60px;
   margin-right: 60px;
   margin-top: 50px;
-  font-family: 'Open Sans', Helvetica, sans-serif;
+  font-family: "Open Sans", Helvetica, sans-serif;
   font-size: 15px;
   justify-content: space-between;
   align-items: center;
@@ -148,7 +150,8 @@ a:active, a:focus {
   margin-left: 20px;
 }
 
-.user-compare, .user-cart {
+.user-compare,
+.user-cart {
   position: relative;
   padding-left: 50px;
 }
@@ -177,11 +180,18 @@ a:active, a:focus {
   background-position: 0 0;
 }
 
-.login-link:hover::before, .login-link:focus::before, .compare:hover::before, .compare:focus::before, .cart:hover::before, .cart:focus::before {
+.login-link:hover::before,
+.login-link:focus::before,
+.compare:hover::before,
+.compare:focus::before,
+.cart:hover::before,
+.cart:focus::before {
   opacity: 50%;
 }
 
-.login-link:active::before, .compare:active::before, .cart:active::before {
+.login-link:active::before,
+.compare:active::before,
+.cart:active::before {
   opacity: 30%;
 }
 
@@ -284,7 +294,7 @@ a:active, a:focus {
   height: 100%;
 }
 
-.search-input:focus+button {
+.search-input:focus + button {
   position: absolute;
   border: 2px solid #464646;
   outline: none;
@@ -294,13 +304,13 @@ a:active, a:focus {
   color: rgb(0, 0, 0);
 }
 
-.search-input:focus+button:hover {
+.search-input:focus + button:hover {
   border: 2px solid #000;
   background: #000;
   color: rgb(255, 255, 255);
 }
 
-.search-input:focus+button:active {
+.search-input:focus + button:active {
   border: 2px solid #000;
   background: #000;
   color: rgba(255, 255, 255, 0.302);
@@ -407,7 +417,8 @@ a:active, a:focus {
   background-image: url(../img/svg/slider-button-empty.svg);
 }
 
-.slider-button:hover, .slider-button:focus {
+.slider-button:hover,
+.slider-button:focus {
   background-color: transparent;
 }
 
@@ -465,7 +476,8 @@ a:active, a:focus {
   left: 80px;
 }
 
-.popular:hover div, .popular:focus div {
+.popular:hover div,
+.popular:focus div {
   background: #f0c52e;
 }
 
@@ -537,7 +549,8 @@ a:active, a:focus {
   border-right: 7px solid #000;
 }
 
-.main-info-button:active, .main-info-button.activ {
+.main-info-button:active,
+.main-info-button.activ {
   width: 160px;
   background-color: #000;
   background-image: none;
@@ -606,7 +619,8 @@ a:active, a:focus {
   opacity: 20%;
 }
 
-.partners:hover .partners-img, .partners:focus .partners-img {
+.partners:hover .partners-img,
+.partners:focus .partners-img {
   filter: none;
   opacity: 100%;
 }
@@ -616,7 +630,8 @@ a:active, a:focus {
   margin-top: 95px;
 }
 
-.main-aboutUs, .main-contact {
+.main-aboutUs,
+.main-contact {
   width: 560px;
 }
 
@@ -666,7 +681,8 @@ a:active, a:focus {
   padding-left: 20px;
 }
 
-.main-aboutUs__list li:nth-child(2), .main-aboutUs__list li:nth-child(3) {
+.main-aboutUs__list li:nth-child(2),
+.main-aboutUs__list li:nth-child(3) {
   margin-top: 5px;
 }
 
@@ -685,7 +701,8 @@ a:active, a:focus {
   height: 220px;
 }
 
-.main__aboutUs, .main__writeUs {
+.main__aboutUs,
+.main__writeUs {
   font-weight: bold;
 }
 
@@ -750,7 +767,8 @@ a:active, a:focus {
   margin: 0px;
 }
 
-.footer__logo a:hover, .footer__logo a:focus {
+.footer__logo a:hover,
+.footer__logo a:focus {
   color: #b5931c;
 }
 
@@ -773,7 +791,8 @@ a:active, a:focus {
   letter-spacing: 4px;
 }
 
-.footer__links a:hover, .footer__links a:focus {
+.footer__links a:hover,
+.footer__links a:focus {
   opacity: 60%;
 }
 
@@ -795,7 +814,8 @@ a:active, a:focus {
   opacity: 30%;
 }
 
-.footer__social li a:hover, .footer__social li a:focus {
+.footer__social li a:hover,
+.footer__social li a:focus {
   opacity: 60%;
 }
 
@@ -841,7 +861,8 @@ a:active, a:focus {
   background-image: url(../img/svg/user-footer.svg);
 }
 
-.footer__user .compare::before, .footer__user .cart::before {
+.footer__user .compare::before,
+.footer__user .cart::before {
   top: 3px;
   left: 30px;
 }
@@ -857,7 +878,8 @@ a:active, a:focus {
   margin-bottom: 65px;
 }
 
-.footer__Html:hover, .footer__Html:focus {
+.footer__Html:hover,
+.footer__Html:focus {
   opacity: 60%;
 }
 
@@ -865,7 +887,9 @@ a:active, a:focus {
   opacity: 30%;
 }
 
-.footer__user, .footer__social, .footer__links {
+.footer__user,
+.footer__social,
+.footer__links {
   list-style: none;
 }
 
@@ -902,12 +926,14 @@ a:active, a:focus {
   fill: #f7e296;
 }
 
-.modal-close:hover, .modal-close:focus {
+.modal-close:hover,
+.modal-close:focus {
   background-color: transparent;
 }
 
-.modal-close:hover path, .modal-close:focus path {
-  fill: #F0C52E;
+.modal-close:hover path,
+.modal-close:focus path {
+  fill: #f0c52e;
 }
 
 .modal-close:active path {
@@ -951,7 +977,8 @@ a:active, a:focus {
   margin-right: 35px;
 }
 
-.name, .email {
+.name,
+.email {
   width: 360px;
   min-height: 50px;
   border: none;
@@ -971,11 +998,13 @@ a:active, a:focus {
   resize: none;
 }
 
-.modal-login input:hover, .modal-login textarea:hover {
+.modal-login input:hover,
+.modal-login textarea:hover {
   background-color: #eaeaea;
 }
 
-.modal-login input:focus, .modal-login textarea:focus {
+.modal-login input:focus,
+.modal-login textarea:focus {
   background-color: #fff;
   outline: 2px solid #f7e296;
 }
